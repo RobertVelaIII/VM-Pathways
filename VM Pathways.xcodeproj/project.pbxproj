@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AFC2062C2E3B037C00DBCD71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC206112E3B037B00DBCD71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC206182E3B037B00DBCD71;
+			remoteInfo = "VM Pathways";
+		};
+		AFC206362E3B037C00DBCD71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC206112E3B037B00DBCD71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC206182E3B037B00DBCD71;
+			remoteInfo = "VM Pathways";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFC206192E3B037B00DBCD71 /* VM Pathways.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VM Pathways.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC2062B2E3B037C00DBCD71 /* VM PathwaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VM PathwaysTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC206352E3B037C00DBCD71 /* VM PathwaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VM PathwaysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AFC2061B2E3B037B00DBCD71 /* VM Pathways */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "VM Pathways";
+			sourceTree = "<group>";
+		};
+		AFC2062E2E3B037C00DBCD71 /* VM PathwaysTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "VM PathwaysTests";
+			sourceTree = "<group>";
+		};
+		AFC206382E3B037C00DBCD71 /* VM PathwaysUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "VM PathwaysUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFC206162E3B037B00DBCD71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC206282E3B037C00DBCD71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC206322E3B037C00DBCD71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFC206102E3B037B00DBCD71 = {
+			isa = PBXGroup;
+			children = (
+				AFC2061B2E3B037B00DBCD71 /* VM Pathways */,
+				AFC2062E2E3B037C00DBCD71 /* VM PathwaysTests */,
+				AFC206382E3B037C00DBCD71 /* VM PathwaysUITests */,
+				AFC2061A2E3B037B00DBCD71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFC2061A2E3B037B00DBCD71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFC206192E3B037B00DBCD71 /* VM Pathways.app */,
+				AFC2062B2E3B037C00DBCD71 /* VM PathwaysTests.xctest */,
+				AFC206352E3B037C00DBCD71 /* VM PathwaysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFC206182E3B037B00DBCD71 /* VM Pathways */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC2063F2E3B037C00DBCD71 /* Build configuration list for PBXNativeTarget "VM Pathways" */;
+			buildPhases = (
+				AFC206152E3B037B00DBCD71 /* Sources */,
+				AFC206162E3B037B00DBCD71 /* Frameworks */,
+				AFC206172E3B037B00DBCD71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AFC2061B2E3B037B00DBCD71 /* VM Pathways */,
+			);
+			name = "VM Pathways";
+			packageProductDependencies = (
+			);
+			productName = "VM Pathways";
+			productReference = AFC206192E3B037B00DBCD71 /* VM Pathways.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFC2062A2E3B037C00DBCD71 /* VM PathwaysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC206422E3B037C00DBCD71 /* Build configuration list for PBXNativeTarget "VM PathwaysTests" */;
+			buildPhases = (
+				AFC206272E3B037C00DBCD71 /* Sources */,
+				AFC206282E3B037C00DBCD71 /* Frameworks */,
+				AFC206292E3B037C00DBCD71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFC2062D2E3B037C00DBCD71 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AFC2062E2E3B037C00DBCD71 /* VM PathwaysTests */,
+			);
+			name = "VM PathwaysTests";
+			packageProductDependencies = (
+			);
+			productName = "VM PathwaysTests";
+			productReference = AFC2062B2E3B037C00DBCD71 /* VM PathwaysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFC206342E3B037C00DBCD71 /* VM PathwaysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC206452E3B037C00DBCD71 /* Build configuration list for PBXNativeTarget "VM PathwaysUITests" */;
+			buildPhases = (
+				AFC206312E3B037C00DBCD71 /* Sources */,
+				AFC206322E3B037C00DBCD71 /* Frameworks */,
+				AFC206332E3B037C00DBCD71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFC206372E3B037C00DBCD71 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AFC206382E3B037C00DBCD71 /* VM PathwaysUITests */,
+			);
+			name = "VM PathwaysUITests";
+			packageProductDependencies = (
+			);
+			productName = "VM PathwaysUITests";
+			productReference = AFC206352E3B037C00DBCD71 /* VM PathwaysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFC206112E3B037B00DBCD71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AFC206182E3B037B00DBCD71 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AFC2062A2E3B037C00DBCD71 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AFC206182E3B037B00DBCD71;
+					};
+					AFC206342E3B037C00DBCD71 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AFC206182E3B037B00DBCD71;
+					};
+				};
+			};
+			buildConfigurationList = AFC206142E3B037B00DBCD71 /* Build configuration list for PBXProject "VM Pathways" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFC206102E3B037B00DBCD71;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AFC2061A2E3B037B00DBCD71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFC206182E3B037B00DBCD71 /* VM Pathways */,
+				AFC2062A2E3B037C00DBCD71 /* VM PathwaysTests */,
+				AFC206342E3B037C00DBCD71 /* VM PathwaysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFC206172E3B037B00DBCD71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC206292E3B037C00DBCD71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC206332E3B037C00DBCD71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFC206152E3B037B00DBCD71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC206272E3B037C00DBCD71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC206312E3B037C00DBCD71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFC2062D2E3B037C00DBCD71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC206182E3B037B00DBCD71 /* VM Pathways */;
+			targetProxy = AFC2062C2E3B037C00DBCD71 /* PBXContainerItemProxy */;
+		};
+		AFC206372E3B037C00DBCD71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC206182E3B037B00DBCD71 /* VM Pathways */;
+			targetProxy = AFC206362E3B037C00DBCD71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AFC2063D2E3B037C00DBCD71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFC2063E2E3B037C00DBCD71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFC206402E3B037C00DBCD71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VM Pathways/Preview Content\"";
+				DEVELOPMENT_TEAM = FXWRZ69Q98;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.valleymedicinals.VM-Pathways";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFC206412E3B037C00DBCD71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VM Pathways/Preview Content\"";
+				DEVELOPMENT_TEAM = FXWRZ69Q98;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.valleymedicinals.VM-Pathways";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFC206432E3B037C00DBCD71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FXWRZ69Q98;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.valleymedicinals.VM-PathwaysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VM Pathways.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VM Pathways";
+			};
+			name = Debug;
+		};
+		AFC206442E3B037C00DBCD71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FXWRZ69Q98;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.valleymedicinals.VM-PathwaysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VM Pathways.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VM Pathways";
+			};
+			name = Release;
+		};
+		AFC206462E3B037C00DBCD71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FXWRZ69Q98;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.valleymedicinals.VM-PathwaysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VM Pathways";
+			};
+			name = Debug;
+		};
+		AFC206472E3B037C00DBCD71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FXWRZ69Q98;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.valleymedicinals.VM-PathwaysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VM Pathways";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFC206142E3B037B00DBCD71 /* Build configuration list for PBXProject "VM Pathways" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC2063D2E3B037C00DBCD71 /* Debug */,
+				AFC2063E2E3B037C00DBCD71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC2063F2E3B037C00DBCD71 /* Build configuration list for PBXNativeTarget "VM Pathways" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC206402E3B037C00DBCD71 /* Debug */,
+				AFC206412E3B037C00DBCD71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC206422E3B037C00DBCD71 /* Build configuration list for PBXNativeTarget "VM PathwaysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC206432E3B037C00DBCD71 /* Debug */,
+				AFC206442E3B037C00DBCD71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC206452E3B037C00DBCD71 /* Build configuration list for PBXNativeTarget "VM PathwaysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC206462E3B037C00DBCD71 /* Debug */,
+				AFC206472E3B037C00DBCD71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFC206112E3B037B00DBCD71 /* Project object */;
+}
