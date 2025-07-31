@@ -60,3 +60,27 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Environment variables
+.env
+
+# Xcode schemes with sensitive environment variables
+VM\ Pathways.xcodeproj/xcshareddata/xcschemes/VM\ Pathways.xcscheme
+
+# Local configuration files that might contain sensitive information
+*.xcconfig
+
+# macOS system files
+.DS_Store
+
+# Build products
+build/
+DerivedData/
+
+# Temporary files
+*.swp
+*.lock
+
+# Sensitive files that might contain API keys
+**/Config/Secrets.swift
+**/Config/APIKeys.swift
