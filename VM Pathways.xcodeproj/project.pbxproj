@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AFC2072D2E3C89C000DBCD71 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFC2072C2E3C89C000DBCD71 /* GoogleService-Info.plist */; };
+		AFC207302E3C8AD000DBCD71 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AFC2072F2E3C8AD000DBCD71 /* FirebaseAuth */; };
+		AFC207322E3C8AD000DBCD71 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = AFC207312E3C8AD000DBCD71 /* FirebaseCore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		AFC2062C2E3B037C00DBCD71 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +33,7 @@
 		AFC206192E3B037B00DBCD71 /* VM Pathways.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VM Pathways.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC2062B2E3B037C00DBCD71 /* VM PathwaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VM PathwaysTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC206352E3B037C00DBCD71 /* VM PathwaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VM PathwaysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC2072C2E3C89C000DBCD71 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC207322E3C8AD000DBCD71 /* FirebaseCore in Frameworks */,
+				AFC207302E3C8AD000DBCD71 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +88,7 @@
 				AFC2062E2E3B037C00DBCD71 /* VM PathwaysTests */,
 				AFC206382E3B037C00DBCD71 /* VM PathwaysUITests */,
 				AFC2061A2E3B037B00DBCD71 /* Products */,
+				AFC2072C2E3C89C000DBCD71 /* GoogleService-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +122,8 @@
 			);
 			name = "VM Pathways";
 			packageProductDependencies = (
+				AFC2072F2E3C8AD000DBCD71 /* FirebaseAuth */,
+				AFC207312E3C8AD000DBCD71 /* FirebaseCore */,
 			);
 			productName = "VM Pathways";
 			productReference = AFC206192E3B037B00DBCD71 /* VM Pathways.app */;
@@ -195,6 +207,9 @@
 			);
 			mainGroup = AFC206102E3B037B00DBCD71;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AFC2072E2E3C8AD000DBCD71 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AFC2061A2E3B037B00DBCD71 /* Products */;
 			projectDirPath = "";
@@ -212,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC2072D2E3C89C000DBCD71 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +410,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"VM Pathways/Preview Content\"";
 				DEVELOPMENT_TEAM = FXWRZ69Q98;
 				ENABLE_PREVIEWS = YES;
@@ -423,7 +439,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"VM Pathways/Preview Content\"";
 				DEVELOPMENT_TEAM = FXWRZ69Q98;
 				ENABLE_PREVIEWS = YES;
@@ -558,6 +574,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AFC2072E2E3C8AD000DBCD71 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AFC2072F2E3C8AD000DBCD71 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFC2072E2E3C8AD000DBCD71 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		AFC207312E3C8AD000DBCD71 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFC2072E2E3C8AD000DBCD71 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AFC206112E3B037B00DBCD71 /* Project object */;
 }
